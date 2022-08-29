@@ -1,0 +1,97 @@
+* {
+  font-family: 'Roboto';
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.registration-card {
+  box-shadow: 0 0 8px 0 #bfbfbf;
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  min-height: 310px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-card {
+    max-width: 450px;
+    padding: 48px 64px 48px 64px;
+  }
+}
+
+.heading {
+  color: #ff0b37;
+}
+.from {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.label {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.input {
+  height: 40px;
+  border: 1px solid #9aa5b1;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #9aa5b1;
+}
+.err-msg {
+  color: #ff0b37;
+  font-size: 14px;
+  margin: 3px 0 0 2px;
+}
+.input-err {
+  border: 1px solid #ff0b37;
+}
+.submit-btn {
+  background-color: #ea580c;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 30px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.success-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-another {
+  background-color: #ea580c;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
